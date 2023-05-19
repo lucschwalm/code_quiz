@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin:auto;
+    width: 10%;
+}
