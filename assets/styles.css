@@ -17,3 +17,7 @@ button {
     margin:auto;
     width: 10%;
 }
+
+form {
+    display: none;
+}

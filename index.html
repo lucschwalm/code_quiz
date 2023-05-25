@@ -9,14 +9,18 @@
 </head>
 <body>
     <header>
-        <h3><a href="#">View high scores</a></h3>
+        <h3><a href="./highScores.html">View high scores</a></h3>
         <h3 id="time">Time: </h3>
-        <h3 id="timer">30</h3>
+        <h3 id="timer">40</h3>
     </header>
     <section id="main">
         <h2 id="mainText">Code quiz</h2>
         <button id="start">Start</button>
         <section id="answerButtons"></section>
+        <form id="initialsForm" display="none" name="submitScore" method="post">
+        <label for="initials">Enter initials: </label><input type="text" name="initials">
+        <input type="submit" value="Submit">
+        </form>
         <h4 id="isCorrect"></h4>
     </section>
     <script src="assets/script.js"></script>
